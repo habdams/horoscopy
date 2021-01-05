@@ -1,0 +1,108 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size:16px;
+  background: url('https://i.ibb.co/q1mZt4T/akhil-lincoln-s-O94q-N81-FYI-unsplash.jpg');
+  background-size: contain;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+li{
+  display: inline;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgba(255,255,255,0.3);
+}
+
+nav li{
+  margin: 20px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.main-area{
+  width: 60%;
+  height: 90vh;
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside{
+  width: 40%;
+  display: flex;
+  background: rgba(0, 0, 0, 0.8);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+.result-section{
+  padding: 40px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 20px;
+}
+
+#month,#day{
+  padding: 15px 60px;
+  margin:10px;
+  border-radius: 15px;
+}
+#confirm{
+  display: block;
+  padding: 15px;
+  width: 100%;
+  text-align:center;
+  background: aqua;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

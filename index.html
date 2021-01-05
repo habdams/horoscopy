@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Horoscoping</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<img src="#" alt="logo">
+			<nav>
+				<ul>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Explore More</a></li>
+				</ul>
+
+			</nav>
+		</header>
+
+		<main>
+			<section class="main-area">
+				<h1>Welcome  To Horoscoping</h1>
+				<form>
+					<label>Month</label>
+					<select name="month" id="month">
+						<option selected value="january">January</option>
+						<option value="february">February</option>
+						<option value="march">March</option>
+						<option value="april">April</option>
+						<option value="may">May</option>
+						<option value="june">June</option>
+						<option value="july">July</option>
+						<option value="august">August</option>
+						<option value="september">September</option>
+						<option value="october">October</option>
+						<option value="november">November</option>
+						<option value="december">December</option>
+					</select>
+					<label>Day</label>
+					<input id="day" type="number" min="01" max="32">
+					<a id="confirm">Confirm</a>
+				</form>
+			</section>
+
+			<section class="aside">
+				<h2 id="sign" >Your star sign</h2>
+				<section class="result-section">
+					<p id="result">Result will show here</p>
+				</section>
+			</section>
+		</main>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
